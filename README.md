@@ -44,7 +44,7 @@ https://github.com/sahil19-19/bhumio-backend
 ## 📌 **Live Link**
 
 ```
-https://kloudmate-kanban-board.vercel.app/
+https://poster-generator-olive.vercel.app/
 ```
 
 
