@@ -22,7 +22,13 @@ cd Poster-Generator-Frontend
 npm install
 ```
 
-### **3️⃣ Run the App**
+### **3️⃣ Setup .env file**
+
+```
+VITE_BACKEND_URL=...
+```
+
+### **4️⃣ Run the App**
 
 ```bash
 npm run dev
