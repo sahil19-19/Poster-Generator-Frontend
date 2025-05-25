@@ -1,0 +1,35 @@
+.footer {
+    background-color: #1a1a19;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: static;
+}
+
+.footer-icons {
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-icon img {
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+
+.footer-icon img:hover {
+    transform: translateX(1px);
+    filter: brightness(0) saturate(100%) invert(73%) sepia(10%) saturate(725%)
+        hue-rotate(125deg) brightness(88%) contrast(89%);
+}
+
+.footer-text {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+    .footer-text {
+        font-size: 1rem;
+    }
+}
